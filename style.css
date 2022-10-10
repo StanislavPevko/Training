@@ -2,13 +2,17 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+.conteiner{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
 .nav{
-    max-width: 1300px; 
-     margin: 53px 579px; 
+     margin: 43px 460px; 
 }
 
 .nav-ul{
-    width: 433px;
+    width: 433px; 
 }
 
 .nav-li{
@@ -28,14 +32,11 @@ body{
     color: #000000;
 }
 
-.div1 {
-    max-width: 1300px;
-    height: 500px
-}
 
 .backgroud{
     background-image: url('./img/background.png');
-    margin: 52px auto;
+    border-image-repeat: no-repeat;
+    background-size: cover;
 }
 
 .div1-text{
@@ -45,7 +46,6 @@ body{
     text-align: center; 
     color: #FFFFFF;
     padding: 138px;
-    height: 0;
 }
 
 .div1-button{
@@ -53,28 +53,20 @@ body{
     height: 70px;
     border: none;
     background-color: #FFFFFF;
-    margin:  0 440px;
+    margin:  0 9px;
     font-weight: 700;
     font-size: 36px;
     line-height: 49px;
     color: #162C38;
 }
 
-.div2{
-    max-width: 1300px;
-    height: 500px
-}
 
-.color{
-    background-color: rgb(76, 108, 197);
-    margin: -52px 129px;
-}
-
-.div2-p{
+.p{
     font-weight: 400;
     font-size: 36px;
     line-height: 49px;
     text-align: center;
     color: #FFFFFF;
     padding: 130px 250px;
+    background-color: rgb(76, 108, 197);
 }
