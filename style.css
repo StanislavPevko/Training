@@ -17,7 +17,6 @@ body{
 
 .nav-li{
     display: inline-block;
-    margin-right: 47px;
 }
 
 .nav-li:not(:last-of-type){
@@ -60,13 +59,137 @@ body{
     color: #162C38;
 }
 
+.div{
+    max-width: 1300px;
+    height: 500px;
+    background-color: #5C98AB;
+}
 
 .p{
+    max-width: 1000px;
+    margin: 0 auto;
     font-weight: 400;
     font-size: 36px;
     line-height: 49px;
     text-align: center;
     color: #FFFFFF;
+    padding: 120px;
+}
+
+.p2{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
     padding: 130px 250px;
-    background-color: rgb(76, 108, 197);
+}
+
+.div-box{
+    width: 128px;
+    height: 121px;
+    background-color: #BFDEFB;
+    position: absolute;
+    top: 33px;
+}
+
+.div2{
+    position: relative;
+}
+
+.div-box1{
+    width: 128px;
+    height: 121px;
+    background-color: #BFDEFB;
+    position: absolute;
+    bottom: 76px;
+}
+
+.div-box2{
+    width: 128px;
+    height: 121px;
+    background-color: #BFDEFB;
+    position: absolute;
+    right: 50px; 
+    top: 171px;
+}
+
+.p3{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    padding: 130px 250px;
+    position: relative;
+}
+
+.p3::before{
+    content: '';
+    width: 58px;
+    height: 58px;
+    background-color: #5C98AB;
+    border-radius: 50%;
+    position: absolute;
+    top: 80px;
+    left: 250px;
+}
+
+.p3::after{
+    content: '';
+    width: 120px;
+    height: 120px;
+    background-color: #BFDEFB;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 80px;
+    right: 150px;
+}
+
+.input{
+    width: 647px;
+    height: 96px;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    margin-bottom: 41px;
+    padding: 36px 0 11px 34px;
+    box-sizing: border-box;
+}
+
+
+.input::placeholder{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 49px;
+    color: #000000;
+}
+
+.label{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+    position: absolute;
+    padding: 10px 37px;
+    margin-bottom: 10px;
+}
+
+.div3{
+    margin-left: 347px;
+}
+
+.button{
+    width: 647px;
+    height: 92px;
+    border: none;
+    box-sizing: border-box;
+    background-color: #5C98AB;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 22px 0 22px;
+    margin: 79px 346px;
 }
